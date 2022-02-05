@@ -1,0 +1,12 @@
+n = int(input('Digite quantos termo deseja ver: '))
+ter1 = 0
+ter2 = 1
+cont = 3
+print('{}'.format(ter2), end=',')
+while cont <= n:
+    ter3 = ter1 + ter2
+    ter1 = ter2
+    ter2 = ter3
+    cont += 1
+    print('{}'.format(ter3), end=',')
+print('...',end=' ')
