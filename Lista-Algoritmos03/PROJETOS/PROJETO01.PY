@@ -10,6 +10,5 @@ for n in range(1, 6):
             cont = nota
         if nota < cont2:
             cont2 = nota
-soma = cont + cont2 
+soma = cont + cont2
 resultado = (s - soma) / 3
-print(resultado)
